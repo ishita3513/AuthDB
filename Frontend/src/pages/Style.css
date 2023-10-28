@@ -1,0 +1,84 @@
+h1{
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+    color: green;
+}
+
+form{
+  background-color: #acddea; /* Light gray background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.alert {
+    color: red;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .login-button, .update-button{
+    background-color: #007bff; /* Blue color */
+    color: #fff; /* Text color, typically white on a colored background */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Provide some spacing between buttons */
+  }
+  
+.signup-button {
+    background-color: #28a745; /* Green color */
+    color: #fff; /* Text color, typically white on a colored background */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+  }
+  
+  .signup-button:hover {
+    background-color: #1e8838; /* Slightly darker green on hover */
+  }
+  
+  .page{
+    background-color: #f7f7f7; /* Light gray background color */
+    padding: 20px;
+    min-height: 100vh;
+  }
+
+  .pagetext{
+    text-align: center;
+    font-size:larger;
+    font-weight: 800;
+  }
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    font-size: 14px;
+  }
+  .card-link{
+    color:rgb(0, 47, 255);
+  }
